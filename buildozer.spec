@@ -5,8 +5,8 @@ package.domain = org.pixellab
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
-requirements = python3,kivy==2.3.0,numpy,opencv
-orientation = portrait
+requirements = python3==3.11.5,hostpython3==3.11.5,kivy==2.3.0,numpy,opencv
+p4a.branch = v2024.01.21
 fullscreen = 0
 
 android.permissions = READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,READ_MEDIA_IMAGES
